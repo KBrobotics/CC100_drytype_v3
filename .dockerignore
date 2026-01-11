@@ -1,0 +1,18 @@
+# zależności i build
+node_modules
+dist
+build
+
+# VCS / IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# logi / system
+*.log
+.DS_Store
+
+# env / sekrety
+.env
+.env.*
