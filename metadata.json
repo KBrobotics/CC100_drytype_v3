@@ -1,0 +1,5 @@
+{
+  "name": "Industrial Transformer Dashboard",
+  "description": "A lightweight, robust dashboard for monitoring dry-type transformers. Designed for industrial embedded controllers (WAGO CC100), featuring live WebSocket integration with Node-RED, industrial-grade SVG visualizations, and dark-mode HMI optimization.",
+  "requestFramePermissions": []
+}

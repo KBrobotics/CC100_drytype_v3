@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  transformer-hmi:
+    build: .
+    container_name: transformer_hmi
+    restart: always
+    ports:
+      - "8000:80"
+    environment:
+      - NODE_ENV=production
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
